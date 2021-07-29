@@ -10,6 +10,8 @@ const HomePage = () => {
       <NavBar />
       <Featured />
       <List />
+      <List />
+      <List />
     </div>
   );
 };
