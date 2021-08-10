@@ -1,27 +1,31 @@
-.userList {
+.productList {
   flex: 4;
 }
-.userListUser {
+
+.productListItem {
   display: flex;
   align-items: center;
 }
-.userListImg {
+
+.productListImg {
   width: 32px;
   height: 32px;
-  object-fit: cover;
   border-radius: 50%;
+  object-fit: cover;
   margin-right: 10px;
 }
-.userListEdit {
+
+.productListEdit {
   border: none;
-  padding: 5px 10px;
-  cursor: pointer;
   border-radius: 10px;
+  padding: 5px 10px;
   background-color: #3bb077;
   color: white;
+  cursor: pointer;
   margin-right: 20px;
 }
-.userListDelete {
+
+.productListDelete {
   color: red;
   cursor: pointer;
 }
